@@ -82,7 +82,7 @@ that applies to you and follow the directions there.
   inches or radians, essentially scaling your localizer so that your numbers are accurate to the real
   world.
 * You actually won't need the turning tuner for this one, since the IMU in the Control Hub will take
- care of the heading readings.
+ care of the heading readings. ************** Weight is 32.8 pounds *******
 * First, start with the `Forward Localizer Tuner`. You'll want to position a ruler alongside your robot.
   By default, you'll want to push the robot 30 inches forward. Once you've pushed that far, or whatever
   you set that value to, then the forward multiplier will be shown as the second number shown. The

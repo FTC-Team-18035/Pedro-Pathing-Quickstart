@@ -67,10 +67,10 @@ public class ForwardVelocityTuner extends OpMode {
     public void init() {
         poseUpdater = new PoseUpdater(hardwareMap);
 
-        leftFront = hardwareMap.get(DcMotorEx.class, leftFrontMotorName);
-        leftRear = hardwareMap.get(DcMotorEx.class, leftRearMotorName);
-        rightRear = hardwareMap.get(DcMotorEx.class, rightRearMotorName);
-        rightFront = hardwareMap.get(DcMotorEx.class, rightFrontMotorName);
+        leftFront = hardwareMap.get(DcMotorEx.class, "Fleft");
+        leftRear = hardwareMap.get(DcMotorEx.class, "Bright");
+        rightRear = hardwareMap.get(DcMotorEx.class, "Bleft");
+        rightFront = hardwareMap.get(DcMotorEx.class, "Fright");
 
         // TODO: Make sure that this is the direction your motors need to be reversed in.
         leftFront.setDirection(DcMotorSimple.Direction.REVERSE);
